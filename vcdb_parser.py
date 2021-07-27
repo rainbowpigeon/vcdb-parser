@@ -102,7 +102,7 @@ def clean_df(df):
             # plus.github
             # plus.master_id
             # plus.modified
-        # Part 1: Clean columns with lots of NaN values
+        # Part 2: Clean columns with lots of NaN values
         # if the NaNs are not because of json flattening (where the column names would have nested attributes)
         elif '.' not in col or (not col.startswith(allowed_cols)):
             null_percentage = 100 * float(get_column_nulls_count(df, col)) / row_count
