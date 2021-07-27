@@ -150,7 +150,7 @@ def parse_unsd_csv_into_df(filename):
 
     m4i_df = df.filter(items=m4i_cols).drop_duplicates()
     m4i_df.dropna(subset=['Region Code'], inplace=True)
-    # drops Antarctica but that it is fine
+    # drops Antarctica but that is fine
 
     super_region_df = m4i_df.filter(items=("Region Code", "Region Name")).drop_duplicates()
     m4i_df = pd.concat([super_region_df, m4i_df])
