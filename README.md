@@ -5,7 +5,7 @@ Python tool to parse and clean the VERIS Community Database JSON file into a pan
 [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/does-not-contain-msg.svg)](https://forthebadge.com)
 
-Check out my site at https://rainbowpigeon.netlify.app!
+Check out my site at https://rainbowpigeon.me!
 
 ***Note: This is not meant to be a robust framework of any sort. It was just a small script to get familiar with some pandas functions.***
 
